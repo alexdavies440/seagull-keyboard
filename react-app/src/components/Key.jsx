@@ -1,8 +1,9 @@
 
-export default function Key({ note }) {
+export default function Key({ note, type }) {
+
     return (
         <div>
-            <button className="key">
+            <button className={`key ${type}`}>
                 {note}
             </button>   
         </div>

@@ -33,7 +33,20 @@ h1 {
 
 .key {
   margin: 2px;
-  padding: 50px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.white-key {
+  color: black;
+  background-color: ivory;
+  padding-top: 150px;
+}
+
+.black-key {
+  color: white;
+  background-color: black;
+  padding-top: 100px;
 }
 
 button {

@@ -2,7 +2,9 @@ import Octave from "./Octave";
 
 export default function Keyboard() {
     return (
-        <div>
+        <div className="keyboard">
+            <Octave />
+            <Octave />
             <Octave />
         </div>
     );
