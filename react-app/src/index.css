@@ -69,14 +69,7 @@ h1 {
   left: 18.5px;
 }
 
-button {
-  /* border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s; */
+img {
+  border-radius: 5px;
+  /* box-shadow: 0 0 100px maroon, 0 0 70px red, 0 0 50px orange, 0 0 15px yellow; */
 }
