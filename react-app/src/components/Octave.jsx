@@ -12,60 +12,60 @@ export default function Octave({ octave }) {
                 <Key
                     note="D"
                     type="white-key"
-                    rate={octave + 0.2}
+                    rate={(octave * 9)/8 }
                 />
                 <Key
                     note="E"
                     type="white-key"
-                    rate={octave + 0.4}
+                    rate={(octave * 5)/4 }
                 />
                 <Key
                     note="F"
                     type="white-key"
-                    rate={octave + 0.5}
+                    rate={(octave * 4)/3}
                 />
                 <Key
                     note="G"
                     type="white-key"
-                    rate={octave + 0.7}
+                    rate={(octave * 3)/2}
                 />
                 <Key
                     note="A"
                     type="white-key"
-                    rate={octave + 0.9}
+                    rate={(octave * 5)/3 }
                 />
                 <Key
                     note="B"
                     type="white-key"
-                    rate={octave + 1.1}
+                    rate={(octave * 15)/8 }
                 />
             </div>
             <div className="black-keys">
                 <Key
                     note="C#"
                     type="black-key"
-                    rate={octave + 0.1}
+                    rate={(octave * 10)/9 }
                 />
                 <Key
                     note="Eb"
                     type="black-key"
-                    rate={octave + 0.3}
+                    rate={(octave * 6)/5 }
                 />
                 <div className="space"></div>
                 <Key
                     note="F#"
                     type="black-key"
-                    rate={octave + 0.6}
+                    rate={(octave * 45)/32}
                 />
                 <Key
                     note="Ab"
                     type="black-key"
-                    rate={octave + 0.8}
+                    rate={(octave * 8)/5}
                 />
                 <Key
                     note="Bb"
                     type="black-key"
-                    rate={octave + 0.10}
+                    rate={(octave * 9)/5}
                 />
             </div>
 

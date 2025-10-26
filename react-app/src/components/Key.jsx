@@ -2,17 +2,15 @@
 
 export default function Key({ note, type, rate }) {
 
-    const audioCtx = new AudioContext();
-
-    let audio = new Audio("./public/seagull-sound-effect-272695.mp3");
+    let audio = new Audio("./public/seagull-squawk.m4a");
 
     function handleSubmit() {
-        event.preventDefault();
+        
         console.log(note);
         console.log(rate);
         audio.preservesPitch = false;
         audio.playbackRate = rate;
-        audio.play();
+        audio.play(); 
     }
 
     return (
