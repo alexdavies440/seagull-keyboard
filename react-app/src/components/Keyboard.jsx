@@ -6,6 +6,8 @@ export default function Keyboard() {
             <Octave />
             <Octave />
             <Octave />
+            <Octave />
+            <Octave />
         </div>
     );
 }

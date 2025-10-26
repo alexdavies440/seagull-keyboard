@@ -29,24 +29,44 @@ h1 {
 
 .keyboard {
   display: flex;
+  padding: 5.5%;
 }
 
 .key {
   margin: 2px;
-  padding: 10px;
   border-radius: 5px;
 }
 
 .white-key {
   color: black;
   background-color: ivory;
+  padding: 10px;
   padding-top: 150px;
+
 }
 
 .black-key {
   color: white;
   background-color: black;
+  padding: 6px;
   padding-top: 100px;
+}
+
+.space {
+  padding: 19.5px;
+  padding-top: 100px;
+}
+
+.white-keys {
+  display: flex;
+}
+
+.black-keys {
+  width: 10px;
+  display: flex;
+  position: relative;
+  top: -185px;
+  left: 18.5px;
 }
 
 button {
@@ -60,4 +80,3 @@ button {
   cursor: pointer;
   transition: border-color 0.25s; */
 }
-
