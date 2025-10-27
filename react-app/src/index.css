@@ -33,12 +33,17 @@ h1 {
 }
 
 .key {
+  color: transparent;
   margin: 2px;
   border-radius: 5px;
 }
 
+.key:hover {
+  box-shadow: 0 0 15px black;
+  transition: ease-in 0.25s;
+}
+
 .white-key {
-  color: black;
   background-color: ivory;
   padding: 10px;
   padding-top: 150px;
@@ -46,7 +51,6 @@ h1 {
 }
 
 .black-key {
-  color: white;
   background-color: black;
   padding: 6px;
   padding-top: 100px;

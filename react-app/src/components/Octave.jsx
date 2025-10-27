@@ -44,7 +44,7 @@ export default function Octave({ octave }) {
                 <Key
                     note="C#"
                     type="black-key"
-                    rate={(octave * 10)/9 }
+                    rate={(octave * 135)/128 }
                 />
                 <Key
                     note="Eb"
